@@ -1,0 +1,59 @@
+/* Copyright 2014 The MathWorks, Inc. */
+
+.tooltip {
+    display:block;
+    border:1px solid #000;
+    background: #FFFFEC;
+    position: absolute;
+    color: #fff;
+}
+
+.code span {
+  padding-right:25px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family:initial;
+  font-size: initial;
+}
+
+.code {
+  border-collapse:collapse; 
+  width:100%;
+  padding:0;
+  font-family:courier;
+  font-size: small;
+}
+
+.code th {
+  width:1%;
+  padding-right:1ex;
+  text-align:right;
+  color:#888;
+  font-weight:normal;
+  border-right:thin solid #888;
+}
+
+.code td {
+  text-align:left;
+  padding-left:1ex;
+  white-space:pre
+}
+
+.code a     { text-decoration:none; color:inherit; white-space:pre }
+.code a.lnk { color:blue; text-decoration:underline }
+.code a.cm  { font-style: italic; color: #117755}
+.code a.cmlnk { text-decoration:underline; font-style: italic; color: #117755}
+.code a.kw  { font-weight: bold; color: #112266 }
+.code a.pp  { font-weight: bold; color: #992211 }
+.code a.st  { font-weight: bold; color: #B404AE }
+.code a.dc  { font-weight: normal; background-color: pink }
+.code a.cmdc  { font-style: italic; color: #117755; background-color: pink }
+.code a.cmlnkdc { text-decoration:underline; font-style: italic; color: #117755; background-color: pink }
+.code a.kwdc  { font-weight: bold; color: #112266 ; background-color: pink }
+.code a.ppdc  { font-weight: bold; color: #992211 ; background-color: pink }
+.code a.stdc  { font-weight: bold; color: #B404AE ; background-color: pink }
+.BLUECOV  { background-color: blue; font-size: 5px; }
+.PINKCOV  { background-color: pink; font-size: 5px; }
+.GREYCOV  { background-color: grey; font-size: 5px; }
+.WHITECOV { background-color: white; font-size: 5px; }
