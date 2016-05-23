@@ -1,0 +1,16 @@
+*************MPC SISO Simulink Model*************
+***Projekt: MPC SISO Modell in ABS            ***
+***Author : Jue Hou                           ***
+***                                           ***
+***                                           ***
+*************************************************
+1. Es ist nur Test Modell für Sigle Input,bzw.u(k) = dT_b/dt. (Die Änderung von Bremsmoment)
+                              Sigle Output,bzw.y(k) = T_b (Ist Bresmoment)
+2. Zustandgröße: x1 lamda(Schlupf)
+                 x2 Winkelbeschleunigung(bzw. Fahrzeugbeschleunigung)
+3. LTI Modell: State Space Modell von Reifen Dynamik
+4. Prädiktives Modell: diskrete SS von Reifen Dynamik
+5. Ref: Fahrer erwünschte Bremsmoment = 1500Nm.
+   Mo(measured Output): T_b(Ist Bremsmoment).
+6. Modell ist ABS_mpccontroller.slx.
+   Script ist ABS_mpcdesign.m                 
